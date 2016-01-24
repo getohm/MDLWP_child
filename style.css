@@ -1,0 +1,147 @@
+/*
+Theme Name: MDLWP Child
+Template:MDLWP
+Theme URI: 
+Author: OHTA, Mai
+Author URI: 
+Description: Child Theme of MDLWP
+Version: 1.0.0
+*/
+
+
+.dj-layout-transparent .mdl-layout__header, .dj-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color:  87% black;
+}
+.mdl-layout__content {
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
+.mdl-cell {
+  box-sizing: border-box;
+  color: white;
+}
+.mdl-grid:first-of-type .mdl-cell {
+}
+.dj-card-square.mdl-card {
+  width: 280px;
+  height: 320px;
+}
+
+
+.dj-card-square {
+  width: 280px;
+  height: 320px;
+}
+
+.dj-ribbon {
+  width: 100%;
+  height: 40vh;
+  background: url('img/bg.png') center / cover;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.dj-main {
+  margin-top: -25vh;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+
+.dj-card__media {
+    box-sizing: border-box;
+    background-size: cover;
+    background-color: #757575; 
+     padding: 24px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    cursor: pointer;
+    height: 200px;
+
+}
+
+.dj-card__supporting-text {
+      text-decoration: none;
+}
+
+
+.dj-content {
+  border-radius: 2px;
+  padding: 40px 0px;
+  margin-bottom: 80px;
+}
+
+
+
+
+
+
+.dj-footer.mdl-mega-footer {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+.dj-footer.mdl-mega-footer ul {
+  padding: 0;
+/*  display: flex;
+  flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+
+}
+
+.dj-footer.mdl-mega-footer .mdl-mega-footer--social-btn {
+  background-color: transparent;
+  margin: 0 16px;
+  width: 24px;
+  height: 24px;
+}
+.dj-footer.mdl-mega-footer .social-btn {
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.social-btn__twitter {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_white_24dp.png');
+}
+.social-btn__facebook {
+  background-image: url('img/FB-f-Logo__white_29.png');
+
+}
+.social-btn__gplus {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_gplus_white_24dp.png');
+}
+
+.dj-footer.mdl-mega-footer li > a {
+      text-decoration: none;
+    color: #616161;
+    
+}
+.dj-footer.mdl-mega-footer li > a:hover {
+      text-decoration: none;
+    color: #FFF;
+    
+}
